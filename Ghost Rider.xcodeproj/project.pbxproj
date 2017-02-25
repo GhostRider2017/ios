@@ -14,6 +14,7 @@
 		4625492A1E61515700077B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462549281E61515700077B34 /* LaunchScreen.storyboard */; };
 		462549351E61515700077B34 /* Ghost_RiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462549341E61515700077B34 /* Ghost_RiderTests.swift */; };
 		462549401E61515700077B34 /* Ghost_RiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625493F1E61515700077B34 /* Ghost_RiderUITests.swift */; };
+		4625494E1E6179E500077B34 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625494D1E6179E500077B34 /* HomeScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4625493B1E61515700077B34 /* Ghost RiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ghost RiderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4625493F1E61515700077B34 /* Ghost_RiderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghost_RiderUITests.swift; sourceTree = "<group>"; };
 		462549411E61515700077B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4625494D1E6179E500077B34 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		4625491E1E61515700077B34 /* Ghost Rider */ = {
 			isa = PBXGroup;
 			children = (
+				4625494F1E6179F500077B34 /* ViewController */,
 				4625491F1E61515700077B34 /* AppDelegate.swift */,
 				462549211E61515700077B34 /* ViewController.swift */,
 				462549231E61515700077B34 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				462549411E61515700077B34 /* Info.plist */,
 			);
 			path = "Ghost RiderUITests";
+			sourceTree = "<group>";
+		};
+		4625494F1E6179F500077B34 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4625494D1E6179E500077B34 /* HomeScreenViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				462549221E61515700077B34 /* ViewController.swift in Sources */,
 				462549201E61515700077B34 /* AppDelegate.swift in Sources */,
+				4625494E1E6179E500077B34 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
