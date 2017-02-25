@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462549201E61515700077B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625491F1E61515700077B34 /* AppDelegate.swift */; };
+		462549221E61515700077B34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462549211E61515700077B34 /* ViewController.swift */; };
+		462549251E61515700077B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462549231E61515700077B34 /* Main.storyboard */; };
+		462549271E61515700077B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462549261E61515700077B34 /* Assets.xcassets */; };
+		4625492A1E61515700077B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462549281E61515700077B34 /* LaunchScreen.storyboard */; };
+		462549351E61515700077B34 /* Ghost_RiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462549341E61515700077B34 /* Ghost_RiderTests.swift */; };
+		462549401E61515700077B34 /* Ghost_RiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625493F1E61515700077B34 /* Ghost_RiderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		462549311E61515700077B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462549141E61515700077B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4625491B1E61515700077B34;
+			remoteInfo = "Ghost Rider";
+		};
+		4625493C1E61515700077B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462549141E61515700077B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4625491B1E61515700077B34;
+			remoteInfo = "Ghost Rider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4625491C1E61515700077B34 /* Ghost Rider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghost Rider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4625491F1E61515700077B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		462549211E61515700077B34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		462549241E61515700077B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		462549261E61515700077B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		462549291E61515700077B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4625492B1E61515700077B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462549301E61515700077B34 /* Ghost RiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ghost RiderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		462549341E61515700077B34 /* Ghost_RiderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghost_RiderTests.swift; sourceTree = "<group>"; };
+		462549361E61515700077B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4625493B1E61515700077B34 /* Ghost RiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ghost RiderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4625493F1E61515700077B34 /* Ghost_RiderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghost_RiderUITests.swift; sourceTree = "<group>"; };
+		462549411E61515700077B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462549191E61515700077B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4625492D1E61515700077B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462549381E61515700077B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462549131E61515700077B34 = {
+			isa = PBXGroup;
+			children = (
+				4625491E1E61515700077B34 /* Ghost Rider */,
+				462549331E61515700077B34 /* Ghost RiderTests */,
+				4625493E1E61515700077B34 /* Ghost RiderUITests */,
+				4625491D1E61515700077B34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4625491D1E61515700077B34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4625491C1E61515700077B34 /* Ghost Rider.app */,
+				462549301E61515700077B34 /* Ghost RiderTests.xctest */,
+				4625493B1E61515700077B34 /* Ghost RiderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4625491E1E61515700077B34 /* Ghost Rider */ = {
+			isa = PBXGroup;
+			children = (
+				4625491F1E61515700077B34 /* AppDelegate.swift */,
+				462549211E61515700077B34 /* ViewController.swift */,
+				462549231E61515700077B34 /* Main.storyboard */,
+				462549261E61515700077B34 /* Assets.xcassets */,
+				462549281E61515700077B34 /* LaunchScreen.storyboard */,
+				4625492B1E61515700077B34 /* Info.plist */,
+			);
+			path = "Ghost Rider";
+			sourceTree = "<group>";
+		};
+		462549331E61515700077B34 /* Ghost RiderTests */ = {
+			isa = PBXGroup;
+			children = (
+				462549341E61515700077B34 /* Ghost_RiderTests.swift */,
+				462549361E61515700077B34 /* Info.plist */,
+			);
+			path = "Ghost RiderTests";
+			sourceTree = "<group>";
+		};
+		4625493E1E61515700077B34 /* Ghost RiderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4625493F1E61515700077B34 /* Ghost_RiderUITests.swift */,
+				462549411E61515700077B34 /* Info.plist */,
+			);
+			path = "Ghost RiderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4625491B1E61515700077B34 /* Ghost Rider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462549441E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost Rider" */;
+			buildPhases = (
+				462549181E61515700077B34 /* Sources */,
+				462549191E61515700077B34 /* Frameworks */,
+				4625491A1E61515700077B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ghost Rider";
+			productName = "Ghost Rider";
+			productReference = 4625491C1E61515700077B34 /* Ghost Rider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4625492F1E61515700077B34 /* Ghost RiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462549471E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost RiderTests" */;
+			buildPhases = (
+				4625492C1E61515700077B34 /* Sources */,
+				4625492D1E61515700077B34 /* Frameworks */,
+				4625492E1E61515700077B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				462549321E61515700077B34 /* PBXTargetDependency */,
+			);
+			name = "Ghost RiderTests";
+			productName = "Ghost RiderTests";
+			productReference = 462549301E61515700077B34 /* Ghost RiderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4625493A1E61515700077B34 /* Ghost RiderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4625494A1E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost RiderUITests" */;
+			buildPhases = (
+				462549371E61515700077B34 /* Sources */,
+				462549381E61515700077B34 /* Frameworks */,
+				462549391E61515700077B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4625493D1E61515700077B34 /* PBXTargetDependency */,
+			);
+			name = "Ghost RiderUITests";
+			productName = "Ghost RiderUITests";
+			productReference = 4625493B1E61515700077B34 /* Ghost RiderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462549141E61515700077B34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Youssef Elabd";
+				TargetAttributes = {
+					4625491B1E61515700077B34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4625492F1E61515700077B34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4625491B1E61515700077B34;
+					};
+					4625493A1E61515700077B34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4625491B1E61515700077B34;
+					};
+				};
+			};
+			buildConfigurationList = 462549171E61515700077B34 /* Build configuration list for PBXProject "Ghost Rider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 462549131E61515700077B34;
+			productRefGroup = 4625491D1E61515700077B34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4625491B1E61515700077B34 /* Ghost Rider */,
+				4625492F1E61515700077B34 /* Ghost RiderTests */,
+				4625493A1E61515700077B34 /* Ghost RiderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4625491A1E61515700077B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4625492A1E61515700077B34 /* LaunchScreen.storyboard in Resources */,
+				462549271E61515700077B34 /* Assets.xcassets in Resources */,
+				462549251E61515700077B34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4625492E1E61515700077B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462549391E61515700077B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462549181E61515700077B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462549221E61515700077B34 /* ViewController.swift in Sources */,
+				462549201E61515700077B34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4625492C1E61515700077B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462549351E61515700077B34 /* Ghost_RiderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462549371E61515700077B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462549401E61515700077B34 /* Ghost_RiderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		462549321E61515700077B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4625491B1E61515700077B34 /* Ghost Rider */;
+			targetProxy = 462549311E61515700077B34 /* PBXContainerItemProxy */;
+		};
+		4625493D1E61515700077B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4625491B1E61515700077B34 /* Ghost Rider */;
+			targetProxy = 4625493C1E61515700077B34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		462549231E61515700077B34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462549241E61515700077B34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		462549281E61515700077B34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462549291E61515700077B34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		462549421E61515700077B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		462549431E61515700077B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462549451E61515700077B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ghost Rider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Ghost-Rider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		462549461E61515700077B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ghost Rider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Ghost-Rider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		462549481E61515700077B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ghost RiderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Ghost-RiderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghost Rider.app/Ghost Rider";
+			};
+			name = Debug;
+		};
+		462549491E61515700077B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ghost RiderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Ghost-RiderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghost Rider.app/Ghost Rider";
+			};
+			name = Release;
+		};
+		4625494B1E61515700077B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Ghost RiderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Ghost-RiderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ghost Rider";
+			};
+			name = Debug;
+		};
+		4625494C1E61515700077B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Ghost RiderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Ghost-RiderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ghost Rider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462549171E61515700077B34 /* Build configuration list for PBXProject "Ghost Rider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462549421E61515700077B34 /* Debug */,
+				462549431E61515700077B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462549441E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost Rider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462549451E61515700077B34 /* Debug */,
+				462549461E61515700077B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		462549471E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost RiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462549481E61515700077B34 /* Debug */,
+				462549491E61515700077B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4625494A1E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost RiderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4625494B1E61515700077B34 /* Debug */,
+				4625494C1E61515700077B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462549141E61515700077B34 /* Project object */;
+}
