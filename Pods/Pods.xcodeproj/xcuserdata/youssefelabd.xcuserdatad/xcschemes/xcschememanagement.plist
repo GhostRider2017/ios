@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>GradientView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Ghost Rider.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Ghost RiderTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Ghost RiderUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>190DA785545E1CEA6622BF24B65006EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4BF00F9E712E93DA7B03ACF46198775B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6363768F35C88C5FB428D5B8873C8609</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F646C51CCE0CCF71B477196A94767B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

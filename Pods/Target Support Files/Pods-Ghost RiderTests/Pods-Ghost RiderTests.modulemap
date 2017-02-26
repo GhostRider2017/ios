@@ -1,0 +1,6 @@
+framework module Pods_Ghost_RiderTests {
+  umbrella header "Pods-Ghost RiderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

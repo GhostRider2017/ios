@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343E78D20CB1342A64B519F8 /* Pods_Ghost_RiderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C5E44AC69A4705C98D573E /* Pods_Ghost_RiderTests.framework */; };
 		462549201E61515700077B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625491F1E61515700077B34 /* AppDelegate.swift */; };
 		462549221E61515700077B34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462549211E61515700077B34 /* ViewController.swift */; };
 		462549251E61515700077B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462549231E61515700077B34 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		462549351E61515700077B34 /* Ghost_RiderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462549341E61515700077B34 /* Ghost_RiderTests.swift */; };
 		462549401E61515700077B34 /* Ghost_RiderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625493F1E61515700077B34 /* Ghost_RiderUITests.swift */; };
 		4625494E1E6179E500077B34 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625494D1E6179E500077B34 /* HomeScreenViewController.swift */; };
+		462549511E61F46500077B34 /* NewGhostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462549501E61F46500077B34 /* NewGhostViewController.swift */; };
+		609E76B742FEB24F0CA0B986 /* Pods_Ghost_RiderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63A6B9A6D329B0BA37354BB /* Pods_Ghost_RiderUITests.framework */; };
+		DB2F45F223520C64355CCC12 /* Pods_Ghost_Rider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123CDE21C1D1E03C66DF4410 /* Pods_Ghost_Rider.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03AF8BFB36208232EDEFCFAD /* Pods-Ghost Rider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghost Rider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ghost Rider/Pods-Ghost Rider.debug.xcconfig"; sourceTree = "<group>"; };
+		123CDE21C1D1E03C66DF4410 /* Pods_Ghost_Rider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ghost_Rider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37716E42E96483B93D9841DE /* Pods-Ghost RiderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghost RiderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ghost RiderTests/Pods-Ghost RiderTests.release.xcconfig"; sourceTree = "<group>"; };
 		4625491C1E61515700077B34 /* Ghost Rider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghost Rider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4625491F1E61515700077B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		462549211E61515700077B34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		4625493F1E61515700077B34 /* Ghost_RiderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghost_RiderUITests.swift; sourceTree = "<group>"; };
 		462549411E61515700077B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4625494D1E6179E500077B34 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		462549501E61F46500077B34 /* NewGhostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGhostViewController.swift; sourceTree = "<group>"; };
+		531509E70C7A5922A563BB83 /* Pods-Ghost Rider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghost Rider.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ghost Rider/Pods-Ghost Rider.release.xcconfig"; sourceTree = "<group>"; };
+		6AAF3D3BF75E3D9AA8AB130C /* Pods-Ghost RiderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghost RiderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ghost RiderUITests/Pods-Ghost RiderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93CCB0D1B280B52A58094840 /* Pods-Ghost RiderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghost RiderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ghost RiderUITests/Pods-Ghost RiderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C63A6B9A6D329B0BA37354BB /* Pods_Ghost_RiderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ghost_RiderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C5E44AC69A4705C98D573E /* Pods_Ghost_RiderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ghost_RiderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E227CB417FC79CAB4C7EA9 /* Pods-Ghost RiderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ghost RiderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ghost RiderTests/Pods-Ghost RiderTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2F45F223520C64355CCC12 /* Pods_Ghost_Rider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343E78D20CB1342A64B519F8 /* Pods_Ghost_RiderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609E76B742FEB24F0CA0B986 /* Pods_Ghost_RiderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D0C97863A28954D329B7376 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				123CDE21C1D1E03C66DF4410 /* Pods_Ghost_Rider.framework */,
+				D2C5E44AC69A4705C98D573E /* Pods_Ghost_RiderTests.framework */,
+				C63A6B9A6D329B0BA37354BB /* Pods_Ghost_RiderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CFE5FEAA0F42AF48F52B228 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03AF8BFB36208232EDEFCFAD /* Pods-Ghost Rider.debug.xcconfig */,
+				531509E70C7A5922A563BB83 /* Pods-Ghost Rider.release.xcconfig */,
+				E8E227CB417FC79CAB4C7EA9 /* Pods-Ghost RiderTests.debug.xcconfig */,
+				37716E42E96483B93D9841DE /* Pods-Ghost RiderTests.release.xcconfig */,
+				6AAF3D3BF75E3D9AA8AB130C /* Pods-Ghost RiderUITests.debug.xcconfig */,
+				93CCB0D1B280B52A58094840 /* Pods-Ghost RiderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		462549131E61515700077B34 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				462549331E61515700077B34 /* Ghost RiderTests */,
 				4625493E1E61515700077B34 /* Ghost RiderUITests */,
 				4625491D1E61515700077B34 /* Products */,
+				2CFE5FEAA0F42AF48F52B228 /* Pods */,
+				1D0C97863A28954D329B7376 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				4625494D1E6179E500077B34 /* HomeScreenViewController.swift */,
+				462549501E61F46500077B34 /* NewGhostViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -143,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 462549441E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost Rider" */;
 			buildPhases = (
+				753754C1CEE0A47662D3A8AD /* [CP] Check Pods Manifest.lock */,
 				462549181E61515700077B34 /* Sources */,
 				462549191E61515700077B34 /* Frameworks */,
 				4625491A1E61515700077B34 /* Resources */,
+				26EBE3736A5930D47E77A435 /* [CP] Embed Pods Frameworks */,
+				2EDF45672675E93DF5EB6AE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 462549471E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost RiderTests" */;
 			buildPhases = (
+				F3703B1360FD3EC8320728DF /* [CP] Check Pods Manifest.lock */,
 				4625492C1E61515700077B34 /* Sources */,
 				4625492D1E61515700077B34 /* Frameworks */,
 				4625492E1E61515700077B34 /* Resources */,
+				A42F6B2F14ADF5D567A5D9C3 /* [CP] Embed Pods Frameworks */,
+				1CC6D4FE0CD546E9840D4644 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4625494A1E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost RiderUITests" */;
 			buildPhases = (
+				AFEF130E87F6A791D8BD0AA0 /* [CP] Check Pods Manifest.lock */,
 				462549371E61515700077B34 /* Sources */,
 				462549381E61515700077B34 /* Frameworks */,
 				462549391E61515700077B34 /* Resources */,
+				8B27C8A257D559D03997F54C /* [CP] Embed Pods Frameworks */,
+				3E24E8158759364C3ECECD87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +256,7 @@
 				TargetAttributes = {
 					4625491B1E61515700077B34 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 947H8H8XTC;
 						ProvisioningStyle = Automatic;
 					};
 					4625492F1E61515700077B34 = {
@@ -265,12 +318,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CC6D4FE0CD546E9840D4644 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ghost RiderTests/Pods-Ghost RiderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26EBE3736A5930D47E77A435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ghost Rider/Pods-Ghost Rider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EDF45672675E93DF5EB6AE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ghost Rider/Pods-Ghost Rider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E24E8158759364C3ECECD87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ghost RiderUITests/Pods-Ghost RiderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		753754C1CEE0A47662D3A8AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B27C8A257D559D03997F54C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ghost RiderUITests/Pods-Ghost RiderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42F6B2F14ADF5D567A5D9C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ghost RiderTests/Pods-Ghost RiderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFEF130E87F6A791D8BD0AA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3703B1360FD3EC8320728DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		462549181E61515700077B34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				462549221E61515700077B34 /* ViewController.swift in Sources */,
+				462549511E61F46500077B34 /* NewGhostViewController.swift in Sources */,
 				462549201E61515700077B34 /* AppDelegate.swift in Sources */,
 				4625494E1E6179E500077B34 /* HomeScreenViewController.swift in Sources */,
 			);
@@ -420,8 +612,10 @@
 		};
 		462549451E61515700077B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AF8BFB36208232EDEFCFAD /* Pods-Ghost Rider.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 947H8H8XTC;
 				INFOPLIST_FILE = "Ghost Rider/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Ghost-Rider";
@@ -432,8 +626,10 @@
 		};
 		462549461E61515700077B34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531509E70C7A5922A563BB83 /* Pods-Ghost Rider.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 947H8H8XTC;
 				INFOPLIST_FILE = "Ghost Rider/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Ghost-Rider";
@@ -444,6 +640,7 @@
 		};
 		462549481E61515700077B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E227CB417FC79CAB4C7EA9 /* Pods-Ghost RiderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +655,7 @@
 		};
 		462549491E61515700077B34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37716E42E96483B93D9841DE /* Pods-Ghost RiderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +670,7 @@
 		};
 		4625494B1E61515700077B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAF3D3BF75E3D9AA8AB130C /* Pods-Ghost RiderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Ghost RiderUITests/Info.plist";
@@ -485,6 +684,7 @@
 		};
 		4625494C1E61515700077B34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CCB0D1B280B52A58094840 /* Pods-Ghost RiderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Ghost RiderUITests/Info.plist";
@@ -515,6 +715,7 @@
 				462549461E61515700077B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		462549471E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost RiderTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +724,7 @@
 				462549491E61515700077B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4625494A1E61515700077B34 /* Build configuration list for PBXNativeTarget "Ghost RiderUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +733,7 @@
 				4625494C1E61515700077B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
